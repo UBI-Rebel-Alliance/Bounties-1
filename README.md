@@ -1,0 +1,3 @@
+# Bounties
+
+Duingud Bounties Badges!
