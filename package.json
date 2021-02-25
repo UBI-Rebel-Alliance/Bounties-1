@@ -1,0 +1,53 @@
+{
+  "name": "StandardBounties",
+  "description": "Bounties on any task, paid in any token on Ethereum",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile",
+    "test": "truffle test",
+    "cvg": "./node_modules/.bin/solidity-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConsenSys/StandardBounties.git"
+  },
+  "keywords": [
+    "ethereum"
+  ],
+  "authors": [
+    "Mark Beylin <mark.beylin@consensys.net>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConsenSys/StandardBounties/issues"
+  },
+  "homepage": "https://github.com/ConsenSys/StandardBounties#readme",
+  "dependencies": {
+    "@codechecks/client": "^0.1.10",
+    "@truffle/hdwallet-provider": "^1.2.1",
+    "bignumber.js": "^7.2.1",
+    "eslint": "^4.0.0",
+    "ethers": "^4.0.7",
+    "ethjs-provider-http": "^0.1.6",
+    "ethjs-rpc": "^0.2.0",
+    "formidable": "^1.2.2",
+    "solc": "^0.5.16",
+    "truffle": "^5.1.61",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "cryptiles": ">=4.1.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "5.1.0",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-standard": "3.0.1",
+    "eth-gas-reporter": "^0.2.20",
+    "solidity-coverage": "^0.7.13",
+    "sshpk": ">=1.13.2",
+    "truffle-hdwallet-provider": "0.0.3"
+  }
+}
